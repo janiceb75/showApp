@@ -147,6 +147,7 @@
     
 
     let matchingShows;
+    let showName;
     async function getShow() 
     {
         let query = supabase
