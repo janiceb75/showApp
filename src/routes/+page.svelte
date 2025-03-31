@@ -163,7 +163,7 @@
         const { data, error } = await query
 
         if(data.length>0){
-            showName= data[0].show_name
+            message= data[0].show_name
         }else{message="No Matching Shows"}
     }
     
